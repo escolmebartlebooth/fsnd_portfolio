@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build a Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+    <div class="container">
+        <header class="row">
+            <picture class="col-2">
+                <img class="ilogo" src="img/logo.svg" alt="Company Logo: Bartlebooth">
+            </picture>
+            <section class="col-10 heading">
+                <h1>David Escolme</h1>
+                <h3>Front-End Ninja</h3>
+            </section>
+        </header>
+        <div class="row">
+            <hr>
+        </div>
+        <section class="row">
+            <picture class="col-12">
+                <source media="(min-width: 900px)" srcset="img/hero_1200.jpg 1x, img/hero_2400.jpg 2x">
+                <source media="(min-width: 600px)" srcset="img/hero_900.jpg 1x, img/hero_1800.jpg 2x">
+                <img class="hero" src="img/hero_600.jpg" alt="Company Logo: Bartlebooth">
+            </picture>
+        </section>
+        <div class="row">
+            <h2>Featured Work</h2>
+        </div>
+        <section class="row">
+            <article class="project">
+                <picture>
+                    <source media="(min-width: 900px)" srcset="img/project1_1200.jpg 1x, img/project1_2400.jpg 2x">
+                    <source media="(min-width: 600px)" srcset="img/project1_900.jpg 1x, img/project1_1800.jpg 2x">
+                    <img class="img_project" src="img/project1_600.jpg" alt="Project 1">
+                </picture>
+                <h2>Cartmel</h2>
+                <p>http://www.google.com</p>
+            </article>
+            <article class="project">
+                <picture>
+                    <source media="(min-width: 900px)" srcset="img/project2_1200.jpg 1x, img/project2_2400.jpg 2x">
+                    <source media="(min-width: 600px)" srcset="img/project2_900.jpg 1x, img/project2_1800.jpg 2x">
+                    <img class="img_project" src="img/project2_600.jpg" alt="Project 2">
+                </picture>
+                <h2>Grange Over Sands</h2>
+                <p>http://www.google.com</p>
+            </article>
+            <article class="project">
+                <picture>
+                    <source media="(min-width: 900px)" srcset="img/project3_1200.jpg 1x, img/project3_2400.jpg 2x">
+                    <source media="(min-width: 600px)" srcset="img/project3_900.jpg 1x, img/project3_1800.jpg 2x">
+                    <img class="img_project" src="img/project3_600.jpg" alt="Project 3">
+                </picture>
+                <h2>Somewhere else</h2>
+                <p>http://www.google.com</p>
+            </article>
+        </section>
+    </div>
+</body>
+</html>
